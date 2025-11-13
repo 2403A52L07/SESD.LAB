@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pavan FoodFinder App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1>FoodFinder</h1>
+      <p class="subtitle">Restaurant & Dish recommendations — Search by cuisine or dish</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="searchpanel">
+      <input id="searchInput" placeholder="Search cuisine or dish (e.g. biryani, chicken, pizza)" />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <div id="results" class="grid"></div>
+    </section>
+
+    <section>
+      <h2>Your Favourites</h2>
+      <div id="favourites" class="grid"></div>
+    </section>
+
+    <section class="instructions">
+      <h3>Notes</h3>
+      <ul>
+        <li>Data comes from <a href="https://www.themealdb.com" target="_blank" rel="noopener">TheMealDB</a> (free API)</li>
+        <li>Ratings and addresses are generated for demonstration (to match project requirements).</li>
+      </ul>
+      <p class="small">Assignment reference image included: <code>assignment_page.jpg</code></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Developed by Danchanala Pavan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
